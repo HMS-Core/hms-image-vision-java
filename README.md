@@ -38,7 +38,7 @@ The Image Vision service provides you with 24 color filters for scene-specific s
 
 ## Result
 
-    <img src="./ScreenShot.PNG" width = 30% height = 30%>
+   <img src="./ScreenShot.PNG" width = 30% height = 30% >
 
 ##  License
 
