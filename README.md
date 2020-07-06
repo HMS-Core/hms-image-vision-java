@@ -1,5 +1,4 @@
-## image-vision-sample
-
+# HMS Imagekit Vision Demo
 
 ## Table of Contents
 
@@ -42,5 +41,5 @@ The Image Vision service provides you with 24 color filters for scene-specific s
 
 ##  License
 
-ImageVisionSample is licensed under the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+HMS Imagekit Vision Demo is licensed under the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
