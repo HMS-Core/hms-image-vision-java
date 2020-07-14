@@ -12,7 +12,7 @@
 The Image Vision service provides you with 24 color filters for scene-specific smart design.
 
 ## Getting Started
-1. Check whether the Android studio development environment is ready. Open the sample code project directory with file "build.gradle" in Android Studio. Run TestApp on your divice or simulator which have installed latest Huawei Mobile Service(HMS).
+1. Check whether the Android studio development environment is ready. Open the sample code project directory with file "build.gradle" in Android Studio. Run TestApp on your device or simulator which have installed latest Huawei Mobile Service(HMS).
 2. Register a [HUAWEI account](https://developer.huawei.com/consumer/en/).
 3. Create an app and configure the app information in AppGallery Connect. 
    See details: [HUAWEI Image Service Development Preparation](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/config-agc-0000001050199019)
