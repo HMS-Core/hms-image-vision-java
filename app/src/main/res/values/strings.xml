@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ImageKitTest</string>
+    <string name="urlToken">https://login.cloud.huawei.com/oauth2/v2/token</string>
 </resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".ImageKitVisionMainActivity">
+
+    <Button
+        android:id="@+id/btn_filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="filter" />
+    <Button
+        android:id="@+id/btn_smartlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="smartlayout"
+        />
+
+    <Button
+        android:id="@+id/btn_themetag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="themetag"
+        />
+
+    <Button
+        android:id="@+id/btn_sticker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sticker" />
+
+    <Button
+        android:id="@+id/btn_crop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="crop" />
+
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+
+
+

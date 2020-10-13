@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<HwTheme>
+
+<item style="flowertext"/>
+
+<stickerposition>Default</stickerposition>
+
+<stickerscreen>w="167" h="450"</stickerscreen>
+
+<textposition>x="42" y="88"</textposition>
+
+<textscreen>w="67" h="249"</textscreen>
+
+<text display="1"/>
+
+<item fontcolor="#ffffff"/>
+
+<font>A cool breeze</font>
+
+<font-cn>晚风微凉</font-cn>
+
+</HwTheme>

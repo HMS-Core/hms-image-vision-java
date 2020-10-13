@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HwTheme>
+	<item style="flowertext"/>
+	<stickerposition>Default</stickerposition>
+	<stickerscreen>w="450" h="228"</stickerscreen>
+	<textposition>x="30" y="78"</textposition>
+	<textscreen>w="370" h="124"</textscreen>
+	<text maxnumber="5"/>
+	<item fontcolor="#f78dbb"/>
+	<font>De-lovely</font>
+	<font-cn>{EEEE}</font-cn>
+</HwTheme>

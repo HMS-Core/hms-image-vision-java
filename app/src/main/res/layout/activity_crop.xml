@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".CropImageActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="ratios:"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/ratios"
+            android:theme="@style/itemSpinnerStyle" />
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/rb_crop"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_circular"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="circular"
+            android:textColor="#c50f57"
+            android:textSize="16sp"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/rb_rectangle"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/rb_cn"
+            android:text="rectangle"
+            android:textColor="#c50f57"
+            android:textSize="16sp"></RadioButton>
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_rotate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="rotate" />
+
+        <Button
+            android:id="@+id/btn_flip_vertically"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="flipV" />
+
+        <Button
+            android:id="@+id/btn_flip_horizontally"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="flipH" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_crop_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cropimage" />
+    </LinearLayout>
+
+
+    <com.huawei.hms.image.vision.crop.CropLayoutView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cropImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cropBackgroundColor="#88AA66CC"
+        app:cropBorderCornerColor="@android:color/holo_blue_bright"
+        app:cropBorderCornerThickness="5dp"
+        app:cropBorderLineColor="@android:color/holo_green_light"
+        app:cropGuidelines="on"
+        app:cropGuidelinesColor="@android:color/holo_red_dark"
+        app:cropSnapRadius="0dp" />
+
+</LinearLayout>
+
+
+

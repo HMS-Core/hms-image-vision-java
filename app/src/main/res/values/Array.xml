@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ratios">
+        <item>any ratio</item>
+        <item>9:16</item>
+        <item>1:1</item>
+        <item>4:3</item>
+        <item>16:9</item>
+    </string-array>
+</resources>

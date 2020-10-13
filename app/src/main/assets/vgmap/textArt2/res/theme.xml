@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<HwTheme>
+
+<item style="flowertext"/>
+
+<stickerposition>Default</stickerposition>
+
+<stickerscreen>w="450" h="450"</stickerscreen>
+
+<textposition>x="33" y="191"</textposition>
+
+<textscreen>w="390" h="66"</textscreen>
+
+<text display="0"/>
+
+<item fontcolor="#000000"/>
+
+<font>cheliziziyou</font>
+
+<font-cn>车厘子自由</font-cn>
+
+</HwTheme>

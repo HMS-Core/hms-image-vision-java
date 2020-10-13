@@ -3,10 +3,10 @@ apply plugin: 'com.huawei.agconnect'
 
 android {
     dataBinding.enabled = true
-    compileSdkVersion 28
-    buildToolsVersion '28.0.3'
+    compileSdkVersion 29
+    buildToolsVersion '29.0.3'
     defaultConfig {
-        applicationId "com.huawei.imagekit.vision"
+        applicationId "com.huawei.sample.hms"
         minSdkVersion 26
         targetSdkVersion 28
         versionCode 1
@@ -20,23 +20,33 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
+    lintOptions {
+        abortOnError false
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
     lintOptions {
         abortOnError false
     }
 }
-
 repositories {
     flatDir {
         dirs 'libs'
     }
 }
-
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.aar'])
-    implementation 'com.android.support:appcompat-v7:28.0.0'
-    implementation 'com.android.support:recyclerview-v7:28.0.0'
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'com.android.support.test:runner:1.0.2'
-    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-    implementation 'com.huawei.hms:image-vision:1.0.2.301'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:+'
+    //noinspection GradleCompatible
+    implementation 'com.huawei.hms:dynamic-api:1.0.15.301'
+    implementation 'com.huawei.android.hms:security-ssl:1.1.5.301'
+    implementation 'com.huawei.android.hms:security-intent:1.1.5.301'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.huawei.android.hms:security-base:1.1.5.301'
+	implementation "com.huawei.hms:image-vision:1.0.3.301"
+    implementation "com.huawei.hms:image-vision-fallback:1.0.3.301"
 }

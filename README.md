@@ -1,4 +1,5 @@
-# HMS Imagekit Vision Demo
+## image-vision-sample
+
 
 ## Table of Contents
 
@@ -9,10 +10,14 @@
  * [License](#license)
 
 ## Introduction
-The Image Vision service provides you with 24 color filters for scene-specific smart design.
-
+The Image Vision service :
+    1.Provides you with 24 color filters for scene-specific smart design.
+    2.Implements smart layout of images and texts for efficient content production.
+    3.Provides the sticker and text art function for image DIY.
+    4.Implements theme tagging for images and objects in images for convenient retrieval.
+    5.Implements image cropping for users to resize images.
 ## Getting Started
-1. Check whether the Android studio development environment is ready. Open the sample code project directory with file "build.gradle" in Android Studio. Run TestApp on your device or simulator which have installed latest Huawei Mobile Service(HMS).
+1. Check whether the Android studio development environment is ready. Open the sample code project directory with file "build.gradle" in Android Studio. Run TestApp on your divice or simulator which have installed latest Huawei Mobile Service(HMS).
 2. Register a [HUAWEI account](https://developer.huawei.com/consumer/en/).
 3. Create an app and configure the app information in AppGallery Connect. 
    See details: [HUAWEI Image Service Development Preparation](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/config-agc-0000001050199019)
@@ -34,20 +39,31 @@ The Image Vision service provides you with 24 color filters for scene-specific s
 
 - HMS Core (APK) 4.0.2.300 or later.
 
-
 ## Result
 
-   <img src="./ScreenShot.PNG" width = 30% height = 30% >
+Main Activity
 
-## Question or issues
-If you have questions about how to use HMS samples, try the following options:
-- [Stack Overflow](https://stackoverflow.com/questions/tagged/huawei-mobile-services) is the best place for any programming questions. Be sure to tag your question with 
-**huawei-mobile-services**.
-- [Huawei Developer Forum](https://forums.developer.huawei.com/forumPortal/en/home?fid=0101187876626530001) HMS Core Module is great for general questions, or seeking recommendations and opinions.
+![](.\Main.PNG)
 
-If you run into a bug in our samples, please submit an [issue](https://github.com/HMS-Core/hms-image-vision/issues) to the Repository. Even better you can submit a [Pull Request](https://github.com/HMS-Core/hms-image-vision/pulls) with a fix.
+Filter
+
+![](.\Filter.PNG)
+
+Layout
+
+![](.\Layout.PNG)
+
+ThemeTag![](.\ThemeTag.PNG)
+
+Sticker
+
+![](.\Sticker.PNG)
+
+Crop
+
+![](.\Crop.PNG)
 
 ##  License
 
-HMS Imagekit Vision Demo is licensed under the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+ImageVisionSample is licensed under the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
