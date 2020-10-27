@@ -43,25 +43,27 @@ The Image Vision service :
 
 Main Activity
 
-![](.\Main.PNG)
+ <img src="./Main.PNG" width = 30% height = 30%>
 
 Filter
 
-![](.\Filter.PNG)
+<img src="./Filter.PNG" width = 30% height = 30%>
 
 Layout
 
-![](.\Layout.PNG)
+<img src="./Layout.PNG" width = 30% height = 30%>
 
-ThemeTag![](.\ThemeTag.PNG)
+ThemeTag
+
+<img src="./ThemeTag.PNG" width = 30% height = 30%>
 
 Sticker
 
-![](.\Sticker.PNG)
+<img src="./Sticker.PNG" width = 30% height = 30%>
 
 Crop
 
-![](.\Crop.PNG)
+<img src="./Crop.PNG" width = 30% height = 30%>
 
 ## Question or issues
 If you want to evaluate more about HMS Core, [r/HMSCore on Reddit](https://www.reddit.com/r/HuaweiDevelopers/) is for you to keep up with latest news about HMS Core, and to exchange insights with other developers.
