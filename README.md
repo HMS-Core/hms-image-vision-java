@@ -1,4 +1,6 @@
-## HMS Image Kit Vision Sample
+## HUAWEI Image Kit Vision Sample for Java
+
+English | [中文](README_ZH.md)
 
 ## Table of Contents
 
@@ -19,7 +21,7 @@ The Image Vision service :
 1. Check whether the Android studio development environment is ready. Open the sample code project directory with file "build.gradle" in Android Studio. Run TestApp on your divice or simulator which have installed latest Huawei Mobile Service(HMS).
 2. Register a [HUAWEI account](https://developer.huawei.com/consumer/en/).
 3. Create an app and configure the app information in AppGallery Connect. 
-   See details: [HUAWEI Image Service Development Preparation](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/config-agc-0000001050199019)
+   See details: [HUAWEI Image Service Development Preparation](https://developer.huawei.com/consumer/en/doc/development/Media-Guides/config-agc-0000001050199019?ha_source=hms1)
 4. To build this demo, please first import the demo in the Android Studio (3.x+).
 5. Run the sample on your Android device or emulator.
 
@@ -42,27 +44,27 @@ The Image Vision service :
 
 **Main Activity**
 
- <img src="./Main.PNG" width = 30% height = 30%>
+ <img src=images/Main.png width = 30% height = 30%>
 
 **Filter**
 
-<img src=https://github.com/HMS-Core/hms-image-vision-java/blob/master/Filter.gif width = 30% height = 30%>
+<img src=images/Filter.gif width = 30% height = 30%>
 
 **Layout**
 
-<img src=https://github.com/HMS-Core/hms-image-vision-java/blob/master/Layout.gif width = 30% height = 30%>
+<img src=images/Layout.gif width = 30% height = 30%>
 
 **ThemeTag**
 
-<img src=https://github.com/HMS-Core/hms-image-vision-java/blob/master/ThemeTag.gif width = 30% height = 30%>
+<img src=images/ThemeTag.gif width = 30% height = 30%>
 
 **Sticker**
 
-<img src=https://github.com/HMS-Core/hms-image-vision-java/blob/master/Sticker.gif width = 30% height = 30%>
+<img src=images/Sticker.gif width = 30% height = 30%>
 
 **Crop**
 
-<img src=https://github.com/HMS-Core/hms-image-vision-java/blob/master/Crop.gif width = 30% height = 30%>
+<img src=images/Crop.gif width = 30% height = 30%>
 
 ## Question or issues
 If you want to evaluate more about HMS Core, [r/HMSCore on Reddit](https://www.reddit.com/r/HuaweiDevelopers/) is for you to keep up with latest news about HMS Core, and to exchange insights with other developers.
@@ -75,4 +77,3 @@ If you have questions about how to use HMS samples, try the following options:
 ##  License
 
 ImageVisionSample is licensed under the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
-
