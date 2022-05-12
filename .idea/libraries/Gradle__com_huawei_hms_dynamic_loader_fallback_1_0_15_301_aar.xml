@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.huawei.hms:dynamic-loader-fallback:1.0.15.301@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bbdb14b7417651b2447d6986b79a6826/dynamic-loader-fallback-1.0.15.301/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bbdb14b7417651b2447d6986b79a6826/dynamic-loader-fallback-1.0.15.301/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bbdb14b7417651b2447d6986b79a6826/dynamic-loader-fallback-1.0.15.301/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
