@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/rg_tag"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/rb_cn"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="cn"
+            android:textSize="16sp"
+            android:textColor="#c50f57">
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/rb_en"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="en"
+            android:layout_below="@id/rb_cn"
+            android:textSize="16sp"
+            android:textColor="#c50f57">
+        </RadioButton>
+
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_init"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Init_Service" />
+
+        <Button
+            android:id="@+id/btn_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stop_Service" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">>
+        <Button
+            android:id="@+id/btn_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Image" />
+
+        <Button
+            android:id="@+id/btn_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="getResult" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mikesamuel:json-sanitizer:1.2.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mikesamuel/json-sanitizer/1.2.2/53e7fd8b6b59e96467320032b3dacba7ba09a7f9/json-sanitizer-1.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mikesamuel/json-sanitizer/1.2.2/6e3fd4c80fb10cdcdd8452770c46c37c582768a/json-sanitizer-1.2.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mikesamuel/json-sanitizer/1.2.2/ae1d806045221d63d919cfd585765b3e7b0ac1ef/json-sanitizer-1.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,7 @@
+#Fri Sep 02 16:14:55 CST 2022
+base.0=D\:\\hms-image-vision-java-master\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=D\:\\hms-image-vision-java-master\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.huawei.hms:dynamic-api:1.0.20.300@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ec5b36a19ec42a38b7ba6290a0a20c2e/dynamic-api-1.0.20.300/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/181dc3e2e874b0829d18a52fc0d9c462/dynamic-api-1.0.20.300/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ec5b36a19ec42a38b7ba6290a0a20c2e/dynamic-api-1.0.20.300/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ec5b36a19ec42a38b7ba6290a0a20c2e/dynamic-api-1.0.20.300/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

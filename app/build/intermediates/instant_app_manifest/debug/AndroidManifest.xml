@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.huawei.sample.hms"
+    android:targetSandboxVersion="2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="26"
+        android:targetSdkVersion="33" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <queries>
+        <package android:name="com.huawei.hff" />
+        <package android:name="com.huawei.hms" />
+        <package android:name="com.huawei.hwid" />
+    </queries>
+
+    <application
+        android:allowBackup="false"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.huawei.hms.image.vision.sample.SmartLayoutActivity" />
+        <activity android:name="com.huawei.hms.image.vision.sample.FilterActivity" />
+        <activity android:name="com.huawei.hms.image.vision.sample.StickerActivity" />
+        <activity android:name="com.huawei.hms.image.vision.sample.ThemeTagActivity" />
+        <activity android:name="com.huawei.hms.image.vision.sample.CropImageActivity" />
+        <activity android:name="com.huawei.hms.image.vision.sample.ImageKitVisionMainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:image-vision"
+            android:value="image-vision:1.0.3.306" />
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:image-vision:huawei_module_imagevision"
+            android:value="10003301" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:dynamic-api"
+            android:value="dynamic-api:1.0.20.300" />
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:dynamic-api:huawei_module_dynamicloader"
+            android:value="8" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+
+</manifest>

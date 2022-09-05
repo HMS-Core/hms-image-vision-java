@@ -307,7 +307,7 @@ public class SmartLayoutActivity extends AppCompatActivity implements View.OnCli
         imageVisionLayoutAPI.setVisionCallBack(new ImageVision.VisionCallBack() {
             @Override
             public void onSuccess(int successCode) {
-                int initCode = imageVisionLayoutAPI.init(context, authJson);
+                int initCode = imageVisionLayoutAPI.init(context,authJson);
                 tv2.setText("initCode:" + initCode);
                 initCodeState = initCode;
                 stopCodeState = -2;

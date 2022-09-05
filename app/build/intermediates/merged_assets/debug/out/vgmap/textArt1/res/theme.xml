@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HwTheme>
+	<item style="flowertext"/>
+	<stickerposition>Default</stickerposition>
+	<stickerscreen>w="450" h="262"</stickerscreen>
+	<textposition>x="105" y="86"</textposition>
+	<textscreen>w="250" h="70"</textscreen>
+	<text maxnumber="5"/>
+	<item fontcolor="#e90002"/>
+	<font>It's all right</font>
+	<font-cn>妥妥的</font-cn>
+</HwTheme>

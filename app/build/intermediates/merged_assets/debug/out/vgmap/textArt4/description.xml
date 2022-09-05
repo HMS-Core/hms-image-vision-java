@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HwTheme>
+      <title>hello summer</title>
+    <title-cn>你好夏天</title-cn>
+    <author>兄弟字库</author>
+    <designer>兄弟字库</designer>
+     <screen>FHD</screen>
+     <version>10.0.100</version>
+   <briefinfo-en>hello,summer</briefinfo-en>
+   <briefinfo-cn>你好,夏天啊</briefinfo-cn>
+    <formatType>5</formatType>
+</HwTheme>

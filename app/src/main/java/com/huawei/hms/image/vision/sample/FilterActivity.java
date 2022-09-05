@@ -19,6 +19,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.graphics.Canvas;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -171,7 +172,7 @@ public class FilterActivity extends AppCompatActivity implements View.OnClickLis
         imageVisionFilterAPI.setVisionCallBack(new ImageVision.VisionCallBack() {
             @Override
             public void onSuccess(int successCode) {
-                int initCode = imageVisionFilterAPI.init(context, authJson);
+                int initCode = imageVisionFilterAPI.init(context);
                 initCodeState = initCode;
                 stopCodeState = -2;
                 tv2.setText("initCode = " + initCode);
@@ -199,8 +200,12 @@ public class FilterActivity extends AppCompatActivity implements View.OnClickLis
                     jsonObject.put("requestId", "1");
                     jsonObject.put("taskJson", taskJson);
                     jsonObject.put("authJson", authJson);
+                    Bitmap newBitmap = Bitmap.createBitmap(bitmap.getWidth(), bitmap.getHeight(), Bitmap.Config.ARGB_8888);
+                    Canvas canvas = new Canvas(newBitmap);
+                    canvas.drawColor(0xFFFAFAFA);
+                    canvas.drawBitmap(bitmap, 0, 0, null);
                     final ImageVisionResult visionResult = imageVisionFilterAPI.getColorFilter(jsonObject,
-                            bitmap);
+                            newBitmap);
                     iv.post(new Runnable() {
                         @Override
                         public void run() {

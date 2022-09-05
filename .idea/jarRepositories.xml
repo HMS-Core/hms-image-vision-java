@@ -26,5 +26,35 @@
       <option name="name" value="Google" />
       <option name="url" value="https://dl.google.com/dl/android/maven2/" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven2" />
+      <option name="name" value="maven2" />
+      <option name="url" value="file:/$PROJECT_DIR$/../aars_image/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="BintrayJCenter2" />
+      <option name="name" value="BintrayJCenter2" />
+      <option name="url" value="https://mirrors.tools.huawei.com/maven" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven3" />
+      <option name="name" value="maven3" />
+      <option name="url" value="https://cmc.centralrepo.rnd.huawei.com/artifactory/product_maven/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven5" />
+      <option name="name" value="maven5" />
+      <option name="url" value="https://dgg.maven.repo.cmc.tools.huawei.com/artifactory/sz-maven-public" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven4" />
+      <option name="name" value="maven4" />
+      <option name="url" value="https://artifactory.cde.huawei.com/artifactory/maven-public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven" />
+      <option name="name" value="maven" />
+      <option name="url" value="file:/$PROJECT_DIR$/../aars/" />
+    </remote-repository>
   </component>
 </project>
